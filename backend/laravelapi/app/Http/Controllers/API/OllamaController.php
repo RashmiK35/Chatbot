@@ -72,7 +72,7 @@ class OllamaController extends Controller
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-        CURLOPT_URL => '',
+        CURLOPT_URL => 'https//localhost:1134/api/generate',
         CURLOPT_SSL_VERIFYPEER => 0,
         CURLOPT_SSL_VERIFYHOST => FALSE,
         CURLOPT_RETURNTRANSFER => true,
